@@ -1,0 +1,715 @@
+﻿Log file open, 03/02/18 15:19:31
+LogWindows: LoadLibraryWithSearchPaths failed for file aqProf.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi32e.dll. GetLastError=0
+LogInit: Display: Running engine for game: MyExam
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(211574197) SRandInit(211574197).
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.155289
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3586342
+LogInit: Engine Version: 4.17.1-3586342+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Aug 15 2017 02:05:26
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.03.02-14.19.31:505][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.02-14.19.31:505][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.03.02-14.19.31:513][  0]LogInit: Computer: AI310
+[2018.03.02-14.19.31:513][  0]LogInit: User: didacaltesa
+[2018.03.02-14.19.31:513][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.03.02-14.19.31:513][  0]LogInit: High frequency timer resolution =3.020410 MHz
+[2018.03.02-14.19.31:513][  0]LogMemory: Memory total: Physical=15.8GB (16GB approx)
+[2018.03.02-14.19.31:513][  0]LogMemory: Platform Memory Stats for Windows
+[2018.03.02-14.19.31:513][  0]LogMemory: Process Physical Memory: 280.79 MB used, 280.79 MB peak
+[2018.03.02-14.19.31:513][  0]LogMemory: Process Virtual Memory: 285.30 MB used, 285.30 MB peak
+[2018.03.02-14.19.31:513][  0]LogMemory: Physical Memory: 5338.76 MB used,  10862.63 MB free, 16201.39 MB total
+[2018.03.02-14.19.31:513][  0]LogMemory: Virtual Memory: 668.12 MB used,  10862.63 MB free, 8388608.00 MB total
+[2018.03.02-14.19.31:627][  0]LogInit: Using OS detected language (ca-ES).
+[2018.03.02-14.19.31:627][  0]LogInit: Using OS detected locale (ca-ES).
+[2018.03.02-14.19.31:630][  0]LogTextLocalizationManager: No localization for 'ca-ES' exists, so 'en' will be used for the language.
+[2018.03.02-14.19.31:630][  0]LogTextLocalizationManager: No localization for 'ca-ES' exists, so 'en' will be used for the locale.
+[2018.03.02-14.19.32:310][  0]LogD3D11RHI: D3D11 adapters:
+[2018.03.02-14.19.32:318][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2018.03.02-14.19.32:318][  0]LogD3D11RHI:       128/0/1632 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2018.03.02-14.19.32:318][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.03.02-14.19.32:322][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.03.02-14.19.32:322][  0]LogD3D11RHI:     GPU DeviceId: 0x412 (for the marketing name, search the web for "GPU Device Id")
+[2018.03.02-14.19.32:322][  0]LogWindows: EnumDisplayDevices:
+[2018.03.02-14.19.32:322][  0]LogWindows:    0. 'Intel(R) HD Graphics 4600' (P:1 D:1)
+[2018.03.02-14.19.32:323][  0]LogWindows:    1. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2018.03.02-14.19.32:323][  0]LogWindows:    2. 'Intel(R) HD Graphics 4600' (P:0 D:0)
+[2018.03.02-14.19.32:323][  0]LogWindows:    3. 'RDPDD Chained DD' (P:0 D:0)
+[2018.03.02-14.19.32:323][  0]LogWindows:    4. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2018.03.02-14.19.32:323][  0]LogWindows:    5. 'RDP Reflector Display Driver' (P:0 D:0)
+[2018.03.02-14.19.32:323][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:3 
+[2018.03.02-14.19.32:323][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 4600
+[2018.03.02-14.19.32:323][  0]LogD3D11RHI:   Driver Version: 9.18.10.3220 (internal:9.18.10.3220, unified:9.18.10.3220)
+[2018.03.02-14.19.32:323][  0]LogD3D11RHI:      Driver Date: 6-24-2013
+[2018.03.02-14.19.32:323][  0]LogRHI: Texture pool is 660 MB (70% of 944 MB)
+[2018.03.02-14.19.32:328][  0]LogD3D11RHI: Async texture creation enabled
+[2018.03.02-14.19.32:334][  0]LogD3D11RHI: GPU Timing Frequency: 12.500000 (Debug: 2 0)
+[2018.03.02-14.19.32:335][  0]LogShaderCompilers: Guid format shader working directory is 0 characters bigger than the processId version (D:/DidacAltesa/UnrealAmbElFran/CloneExamenFran/MyExam/Intermediate/Shaders/WorkingDirectory/5908/).
+[2018.03.02-14.19.32:335][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/didac.altesa/AppData/Local/Temp/UnrealShaderWorkingDir/B7A5E6CE4AAF49B5198478A67750F763/'.
+[2018.03.02-14.19.32:335][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.03.02-14.19.33:136][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.03.02-14.19.33:174][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.03.02-14.19.33:212][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.03.02-14.19.33:250][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.03.02-14.19.33:289][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.03.02-14.19.33:327][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.03.02-14.19.33:367][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.03.02-14.19.33:406][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.03.02-14.19.33:439][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.03.02-14.19.33:479][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.03.02-14.19.33:519][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.03.02-14.19.33:558][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.03.02-14.19.33:596][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.03.02-14.19.33:634][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.03.02-14.19.33:673][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.03.02-14.19.33:752][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.03.02-14.19.33:752][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.03.02-14.19.33:780][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.03.02-14.19.33:853][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.03.02-14.19.33:877][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.03.02-14.19.33:915][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.03.02-14.19.33:953][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.03.02-14.19.33:992][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.03.02-14.19.34:031][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.03.02-14.19.34:031][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.03.02-14.19.34:347][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.03.02-14.19.34:464][  0]LogDerivedDataCache: Loaded boot cache 0.12s 93MB C:/Users/didac.altesa/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2018.03.02-14.19.34:464][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/didac.altesa/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2018.03.02-14.19.34:464][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/DidacAltesa/UnrealAmbElFran/CloneExamenFran/MyExam/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.03.02-14.19.34:464][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.03.02-14.19.34:464][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/DidacAltesa/UnrealAmbElFran/CloneExamenFran/MyExam/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.03.02-14.19.34:464][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.03.02-14.19.34:481][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.03.02-14.19.34:491][  0]LogDerivedDataCache: Using Local data cache path C:/Users/didac.altesa/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.03.02-14.19.34:502][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.03.02-14.19.34:502][  0]LogSlate: Using Freetype 2.6.0
+[2018.03.02-14.19.34:502][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.02-14.19.34:502][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.02-14.19.34:758][  0]LogAssetRegistry: FAssetRegistry took 0.0245 seconds to start up
+[2018.03.02-14.19.34:921][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.02-14.19.34:925][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.03.02-14.19.35:230][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.03.02-14.19.35:259][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.03.02-14.19.35:259][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.03.02-14.19.35:259][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.03.02-14.19.35:259][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.03.02-14.19.35:259][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.03.02-14.19.36:040][  0]LogNetVersion: MyExam , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2221036993)
+[2018.03.02-14.19.36:189][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 1 prioritized culture(s) in 0.012530 seconds
+[2018.03.02-14.19.36:195][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2018.03.02-14.19.36:195][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
+[2018.03.02-14.19.36:195][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.03.02-14.19.36:236][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.03.02-14.19.38:351][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.03.02-14.19.38:378][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.03.02-14.19.38:809][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.03.02-14.19.39:098][  0]SourceControl: Source control is disabled
+[2018.03.02-14.19.39:099][  0]SourceControl: Source control is disabled
+[2018.03.02-14.19.39:129][  0]SourceControl: Source control is disabled
+[2018.03.02-14.19.39:159][  0]SourceControl: Source control is disabled
+[2018.03.02-14.19.39:520][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.03.02-14.19.39:671][  0]LogOcInput: OculusInput pre-init called
+[2018.03.02-14.19.39:850][  0]LogEngine: Initializing Engine...
+[2018.03.02-14.19.39:852][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.03.02-14.19.40:065][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.03.02-14.19.40:065][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.03.02-14.19.40:278][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.03.02-14.19.40:288][  0]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.02-14.19.40:310][  0]LogInit: FAudioDevice initialized.
+[2018.03.02-14.19.40:398][  0]LogDerivedDataCache: Saved boot cache 0.09s 93MB C:/Users/didac.altesa/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2018.03.02-14.19.40:410][  0]LogInit: Texture streaming: Enabled
+[2018.03.02-14.19.40:483][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.03.02-14.19.40:625][  0]LogInit: Transaction tracking system initialized
+[2018.03.02-14.19.40:824][  0]BlueprintLog: New page: Editor Load
+[2018.03.02-14.19.41:390][  0]LocalizationService: Localization service is disabled
+[2018.03.02-14.19.41:831][  0]LogConsoleResponse: Display: 
+[2018.03.02-14.19.41:991][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.03.02-14.19.41:991][  0]LogCook: Display: Mobile HDR setting 1
+[2018.03.02-14.19.41:991][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.03.02-14.19.42:420][  0]LogFileCache: Scanning file cache for directory 'D:/DidacAltesa/UnrealAmbElFran/CloneExamenFran/MyExam/Content/' took 0.01s
+[2018.03.02-14.19.42:662][  0]SourceControl: Source control is disabled
+[2018.03.02-14.19.42:662][  0]Cmd: MAP LOAD FILE="D:/DidacAltesa/UnrealAmbElFran/CloneExamenFran/MyExam/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.02-14.19.42:662][  0]LightingResults: New page: Lighting Build
+[2018.03.02-14.19.42:690][  0]MapCheck: New page: Map Check
+[2018.03.02-14.19.42:690][  0]LightingResults: New page: Lighting Build
+[2018.03.02-14.19.42:871][  0]LogLinker: Warning: Can't find file '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData'
+[2018.03.02-14.19.42:872][  0]LogLinker: Warning: Can't find file for asset '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData' while loading D:/DidacAltesa/UnrealAmbElFran/CloneExamenFran/MyExam/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap.
+[2018.03.02-14.19.42:872][  0]LoadErrors: Error: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap : Can't find file for asset. /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData
+[2018.03.02-14.19.42:883][  0]LogLinker: Warning: Can't find file '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData'
+[2018.03.02-14.19.42:883][  0]LogLinker: Warning: Can't find file for asset '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData' while loading D:/DidacAltesa/UnrealAmbElFran/CloneExamenFran/MyExam/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap.
+[2018.03.02-14.19.42:883][  0]LoadErrors: Error: /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap : Can't find file for asset. /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData
+[2018.03.02-14.19.42:885][  0]LogLinker: Warning: Can't find file '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData'
+[2018.03.02-14.19.42:885][  0]LogLinker: Warning: Can't find file for asset '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData' while loading NULL.
+[2018.03.02-14.19.42:885][  0]LogLinker: Warning: Can't find file '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData'
+[2018.03.02-14.19.42:885][  0]LogLinker: Warning: Can't find file for asset '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData' while loading NULL.
+[2018.03.02-14.19.42:917][  0]LogLinker: Warning: Can't find file '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData'
+[2018.03.02-14.19.42:917][  0]LoadErrors: Failed to load /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData Referenced by PersistentLevel
+[2018.03.02-14.19.42:917][  0]LogLinker: Warning: Can't find file for asset '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData' while loading NULL.
+[2018.03.02-14.19.42:917][  0]LoadErrors: Failed to load /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.ThirdPersonExampleMap_BuiltData Referenced by PersistentLevel
+[2018.03.02-14.19.43:088][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.03.02-14.19.43:118][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.03.02-14.19.43:144][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.02-14.19.43:177][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 32.028ms to complete.
+[2018.03.02-14.19.43:177][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.515
+[2018.03.02-14.19.43:330][  0]LogCollectionManager: Loaded 0 collections in 0.000942 seconds
+[2018.03.02-14.19.43:406][  0]LogFileCache: Scanning file cache for directory 'D:/DidacAltesa/UnrealAmbElFran/CloneExamenFran/MyExam/Saved/Collections/' took 0.01s
+[2018.03.02-14.19.43:406][  0]LogFileCache: Scanning file cache for directory 'D:/DidacAltesa/UnrealAmbElFran/CloneExamenFran/MyExam/Content/Developers/didacaltesa/Collections/' took 0.01s
+[2018.03.02-14.19.43:406][  0]LogFileCache: Scanning file cache for directory 'D:/DidacAltesa/UnrealAmbElFran/CloneExamenFran/MyExam/Content/Collections/' took 0.01s
+[2018.03.02-14.19.43:406][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.03.02-14.19.43:416][  0]LogContentBrowser: Native class hierarchy populated in 0.0085 seconds. Added 2386 classes and 500 folders.
+[2018.03.02-14.19.43:462][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0010 seconds. Added 0 classes and 0 folders.
+[2018.03.02-14.19.43:536][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2018.03.02-14.19.43:573][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2018.03.02-14.19.43:623][  0]LogSlate: Took 0.000135 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.03.02-14.19.43:625][  0]LogSlate: Took 0.000108 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.03.02-14.19.43:632][  0]LogSlate: Took 0.000960 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.03.02-14.19.43:739][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2018.03.02-14.19.44:953][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2018.03.02-14.19.44:953][  0]LogLoad: (Engine Initialization) Total time: 14.64 seconds
+[2018.03.02-14.19.44:953][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.03.02-14.19.44:954][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2018.03.02-14.19.44:954][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2018.03.02-14.19.44:985][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.03.02-14.19.45:051][  0]LogSlate: Took 0.001682 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.02-14.19.45:120][  2]LogAssetRegistry: Asset discovery search completed in 10.3829 seconds
+[2018.03.02-14.19.45:122][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.03.02-14.19.45:122][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000034 seconds (updated 0 objects)
+[2018.03.02-14.19.51:369][ 98]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.02-14.19.51:427][ 98]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.03.02-14.19.51:428][ 98]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.02-14.19.51:430][ 98]PIE: New page: PIE session: ThirdPersonExampleMap (Mar 2, 2018, 4:19:51 PM)
+[2018.03.02-14.19.51:430][ 98]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.03.02-14.19.51:466][ 98]LogPlayLevel: PIE: StaticDuplicateObject took: (0.036157s)
+[2018.03.02-14.19.51:479][ 98]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.03.02-14.19.51:479][ 98]LogPlayLevel: PIE: World Init took: (0.012776s)
+[2018.03.02-14.19.51:479][ 98]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.049188s)
+[2018.03.02-14.19.51:501][ 98]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.02-14.19.51:508][ 98]LogInit: FAudioDevice initialized.
+[2018.03.02-14.19.51:555][ 98]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.02-14.19.51:559][ 98]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.03.02-15.19.51
+[2018.03.02-14.19.51:561][ 98]LogWorld: Bringing up level for play took: 0.003265
+[2018.03.02-14.19.51:592][ 98]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 11 classes and 0 folders.
+[2018.03.02-14.19.51:593][ 98]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.749
+[2018.03.02-14.19.51:593][ 98]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.03.02-14.20.00:987][281]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.03.02-14.20.01:065][281]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.03.02-14.27.46:857][382]LogSlate: Took 0.000136 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.02-14.27.47:010][382]LogSavePackage: Save=65.63ms
+[2018.03.02-14.27.47:010][382]LogSavePackage: Moving 'D:/DidacAltesa/UnrealAmbElFran/CloneExamenFran/MyExam/Saved/ThirdPersonExampleMap51CC8D7743F6F6D3A7F57B9B75608232.tmp' to 'D:/DidacAltesa/UnrealAmbElFran/CloneExamenFran/MyExam/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2018.03.02-14.27.47:011][382]LogSavePackage: Display: Finished SavePackage D:/DidacAltesa/UnrealAmbElFran/CloneExamenFran/MyExam/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2018.03.02-16.12.07:894][250]LogSlate: Took 0.000214 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.02-16.13.27:785][938]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.03.02-16.13.28:995][955]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.02-16.13.29:005][955]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.03.02-16.13.29:005][955]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.02-16.13.29:006][955]PIE: New page: PIE session: ThirdPersonExampleMap (Mar 2, 2018, 6:13:29 PM)
+[2018.03.02-16.13.29:006][955]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.03.02-16.13.29:031][955]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024630s)
+[2018.03.02-16.13.29:032][955]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.03.02-16.13.29:032][955]LogPlayLevel: PIE: World Init took: (0.001236s)
+[2018.03.02-16.13.29:032][955]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.026365s)
+[2018.03.02-16.13.29:048][955]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.02-16.13.29:056][955]LogInit: FAudioDevice initialized.
+[2018.03.02-16.13.29:195][955]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.02-16.13.29:199][955]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.03.02-17.13.29
+[2018.03.02-16.13.29:200][955]LogWorld: Bringing up level for play took: 0.003397
+[2018.03.02-16.13.29:201][955]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.687
+[2018.03.02-16.13.29:202][955]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.03.02-16.15.11:146][103]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.03.02-16.15.11:245][103]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.03.02-16.16.28:814][458]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/Blueprints/WalkingBlendingIcaroBP'
+[2018.03.02-16.16.28:815][458]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/Blueprints/WalkingBlendingIcaroBP'
+[2018.03.02-16.16.28:815][458]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/FirstPersonBP/Blueprints/WalkingBlendingIcaroBP.WalkingBlendingIcaroBP'
+[2018.03.02-16.16.28:815][458]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/Blueprints/CanyonBP'
+[2018.03.02-16.16.28:815][458]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/Blueprints/CanyonBP'
+[2018.03.02-16.16.28:815][458]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/FirstPersonBP/Blueprints/CanyonBP.CanyonBP'
+[2018.03.02-16.16.28:816][458]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter'
+[2018.03.02-16.16.28:816][458]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter'
+[2018.03.02-16.16.28:816][458]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter'
+[2018.03.02-16.16.28:816][458]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/Blueprints/FirstPersonGameMode'
+[2018.03.02-16.16.28:817][458]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/Blueprints/FirstPersonGameMode'
+[2018.03.02-16.16.28:817][458]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/FirstPersonBP/Blueprints/FirstPersonGameMode.FirstPersonGameMode'
+[2018.03.02-16.16.28:817][458]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/Blueprints/FirstPersonHUD'
+[2018.03.02-16.16.28:818][458]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/Blueprints/FirstPersonHUD'
+[2018.03.02-16.16.28:818][458]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/FirstPersonBP/Blueprints/FirstPersonHUD.FirstPersonHUD'
+[2018.03.02-16.16.28:818][458]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile'
+[2018.03.02-16.16.28:818][458]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/Blueprints/FirstPersonProjectile'
+[2018.03.02-16.16.28:818][458]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/FirstPersonBP/Blueprints/FirstPersonProjectile.FirstPersonProjectile'
+[2018.03.02-16.16.28:818][458]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/Blueprints/IcaroAnimBP'
+[2018.03.02-16.16.28:819][458]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/Blueprints/IcaroAnimBP'
+[2018.03.02-16.16.28:819][458]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/FirstPersonBP/Blueprints/IcaroAnimBP.IcaroAnimBP'
+[2018.03.02-16.16.28:819][458]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/Blueprints/IcaroBP'
+[2018.03.02-16.16.28:819][458]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/Blueprints/IcaroBP'
+[2018.03.02-16.16.28:819][458]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/FirstPersonBP/Blueprints/IcaroBP.IcaroBP'
+[2018.03.02-16.16.28:820][458]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/Blueprints/NewBlueprint'
+[2018.03.02-16.16.28:820][458]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/Blueprints/NewBlueprint'
+[2018.03.02-16.16.28:820][458]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/FirstPersonBP/Blueprints/NewBlueprint.NewBlueprint'
+[2018.03.02-16.16.28:820][458]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/Blueprints/NewMaterial'
+[2018.03.02-16.16.28:820][458]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/Blueprints/NewMaterial'
+[2018.03.02-16.16.28:820][458]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/FirstPersonBP/Blueprints/NewMaterial.NewMaterial'
+[2018.03.02-16.16.28:821][458]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/Blueprints/NewTextureRenderTarget2D'
+[2018.03.02-16.16.28:821][458]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/Blueprints/NewTextureRenderTarget2D'
+[2018.03.02-16.16.28:821][458]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/FirstPersonBP/Blueprints/NewTextureRenderTarget2D.NewTextureRenderTarget2D'
+[2018.03.02-16.16.28:821][458]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/Blueprints/PlatformBPv1'
+[2018.03.02-16.16.28:821][458]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/Blueprints/PlatformBPv1'
+[2018.03.02-16.16.28:822][458]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/FirstPersonBP/Blueprints/PlatformBPv1.PlatformBPv1'
+[2018.03.02-16.16.28:822][458]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/Blueprints/PlatformBPv2'
+[2018.03.02-16.16.28:822][458]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/Blueprints/PlatformBPv2'
+[2018.03.02-16.16.28:822][458]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/FirstPersonBP/Blueprints/PlatformBPv2.PlatformBPv2'
+[2018.03.02-16.16.28:822][458]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/Blueprints/ProjectilBP'
+[2018.03.02-16.16.28:823][458]LogLinker: Warning: Can't find file '/Game/FirstPersonBP/Blueprints/ProjectilBP'
+[2018.03.02-16.16.28:823][458]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/FirstPersonBP/Blueprints/ProjectilBP.ProjectilBP'
+[2018.03.02-16.18.43:939][ 21]Cmd: POLY SELECT ALL
+[2018.03.02-16.19.02:426][191]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.02-16.19.02:446][191]LightingResults: New page: Lighting Build
+[2018.03.02-16.19.02:448][191]LoadErrors: New page: Loading map: Template_Default.umap
+[2018.03.02-16.19.02:458][191]MapCheck: New page: Map Check
+[2018.03.02-16.19.02:458][191]LightingResults: New page: Lighting Build
+[2018.03.02-16.19.02:488][191]LogAIModule: Creating AISystem for world Untitled_1
+[2018.03.02-16.19.02:505][191]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.03.02-16.19.02:534][191]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.02-16.19.02:569][191]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 34.522ms to complete.
+[2018.03.02-16.19.02:569][191]LogFileHelpers: Loading map 'Template_Default' took 0.144
+[2018.03.02-16.19.05:045][244]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.02-16.19.05:055][244]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.02-16.19.05:056][244]PIE: New page: PIE session: Untitled_1 (Mar 2, 2018, 6:19:05 PM)
+[2018.03.02-16.19.05:056][244]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2018.03.02-16.19.05:057][244]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001795s)
+[2018.03.02-16.19.05:058][244]LogAIModule: Creating AISystem for world Untitled_1
+[2018.03.02-16.19.05:058][244]LogPlayLevel: PIE: World Init took: (0.000642s)
+[2018.03.02-16.19.05:058][244]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.002635s)
+[2018.03.02-16.19.05:072][244]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.02-16.19.05:081][244]LogInit: FAudioDevice initialized.
+[2018.03.02-16.19.05:148][244]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.02-16.19.05:150][244]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2018.03.02-17.19.05
+[2018.03.02-16.19.05:150][244]LogWorld: Bringing up level for play took: 0.000995
+[2018.03.02-16.19.05:152][244]PIE: Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.617
+[2018.03.02-16.19.12:057][403]LogMaterial: Missing cached shader map for material LayerVisMaterial, compiling. 
+[2018.03.02-16.19.12:081][403]LogMaterial: Missing cached shader map for material SelectBrushMaterial, compiling. 
+[2018.03.02-16.19.12:118][403]LogMaterial: Missing cached shader map for material SelectBrushMaterial, compiling. 
+[2018.03.02-16.19.12:160][403]LogMaterial: Missing cached shader map for material MaskBrushMaterial, compiling. 
+[2018.03.02-16.19.12:192][403]LogMaterial: Missing cached shader map for material LandscapeLayerUsageMaterial, compiling. 
+[2018.03.02-16.19.12:237][403]LogMaterial: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2018.03.02-16.19.12:265][403]LogMaterial: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2018.03.02-16.19.12:293][403]LogMaterial: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2018.03.02-16.19.12:341][403]LogMaterial: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2018.03.02-16.19.12:403][403]LogMaterial: Missing cached shader map for material AlphaBrushMaterial, compiling. 
+[2018.03.02-16.19.12:449][403]LogMaterial: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2018.03.02-16.19.12:482][403]LogMaterial: Missing cached shader map for material MaskBrushMaterial, compiling. 
+[2018.03.02-16.19.12:519][403]LogTexture: Display: Building textures: Texture2D_2 (G8, 128X128)
+[2018.03.02-16.19.57:291][322]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 512X512)
+[2018.03.02-16.19.57:321][322]LogMaterial: Missing cached shader map for material WorldGridMaterial, compiling. Is special engine material.
+[2018.03.02-16.20.08:944][433]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.02-16.20.08:954][433]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.02-16.20.08:954][433]PIE: New page: PIE session: Untitled_1 (Mar 2, 2018, 6:20:08 PM)
+[2018.03.02-16.20.08:954][433]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2018.03.02-16.20.08:969][433]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014994s)
+[2018.03.02-16.20.08:969][433]LogAIModule: Creating AISystem for world Untitled_1
+[2018.03.02-16.20.08:969][433]LogPlayLevel: PIE: World Init took: (0.000570s)
+[2018.03.02-16.20.08:970][433]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.015787s)
+[2018.03.02-16.20.09:066][433]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.02-16.20.09:073][433]LogInit: FAudioDevice initialized.
+[2018.03.02-16.20.09:104][433]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.02-16.20.09:107][433]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2018.03.02-17.20.09
+[2018.03.02-16.20.09:108][433]LogWorld: Bringing up level for play took: 0.002447
+[2018.03.02-16.20.09:109][433]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.03.02-16.20.09:110][433]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=0.000 Y=0.000 Z=0.000] for [ThirdPersonCharacter_C]
+[2018.03.02-16.20.09:110][433]LogGameMode: Warning: SpawnDefaultPawnAtTransform: Couldn't spawn Pawn of type ThirdPersonCharacter_C at Rotation: Pitch 0.000000 Yaw 0.000000 Roll 0.000000
+Translation: 0.000000 0.000000 0.000000
+Scale3D: 1.000000 1.000000 1.000000
+
+[2018.03.02-16.20.09:111][433]PIE: Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.572
+[2018.03.02-16.20.15:026][571]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.02-16.20.15:035][571]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.02-16.20.15:035][571]PIE: New page: PIE session: Untitled_1 (Mar 2, 2018, 6:20:15 PM)
+[2018.03.02-16.20.15:035][571]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2018.03.02-16.20.15:050][571]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014707s)
+[2018.03.02-16.20.15:051][571]LogAIModule: Creating AISystem for world Untitled_1
+[2018.03.02-16.20.15:051][571]LogPlayLevel: PIE: World Init took: (0.001307s)
+[2018.03.02-16.20.15:051][571]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.016253s)
+[2018.03.02-16.20.15:091][571]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.02-16.20.15:099][571]LogInit: FAudioDevice initialized.
+[2018.03.02-16.20.15:131][571]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.02-16.20.15:134][571]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2018.03.02-17.20.15
+[2018.03.02-16.20.15:135][571]LogWorld: Bringing up level for play took: 0.002397
+[2018.03.02-16.20.15:135][571]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.03.02-16.20.15:137][571]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=0.000 Y=0.000 Z=0.000] for [ThirdPersonCharacter_C]
+[2018.03.02-16.20.15:137][571]LogGameMode: Warning: SpawnDefaultPawnAtTransform: Couldn't spawn Pawn of type ThirdPersonCharacter_C at Rotation: Pitch 0.000000 Yaw 0.000000 Roll 0.000000
+Translation: 0.000000 0.000000 0.000000
+Scale3D: 1.000000 1.000000 1.000000
+
+[2018.03.02-16.20.15:137][571]PIE: Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.597
+[2018.03.02-16.20.17:297][615]Cmd: SELECT NONE
+[2018.03.02-16.20.18:272][640]Cmd: SELECT NONE
+[2018.03.02-16.20.25:384][775]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.03.02-16.20.26:285][790]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.02-16.20.26:294][790]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.02-16.20.26:294][790]PIE: New page: PIE session: Untitled_1 (Mar 2, 2018, 6:20:26 PM)
+[2018.03.02-16.20.26:294][790]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2018.03.02-16.20.26:310][790]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015695s)
+[2018.03.02-16.20.26:310][790]LogAIModule: Creating AISystem for world Untitled_1
+[2018.03.02-16.20.26:311][790]LogPlayLevel: PIE: World Init took: (0.000649s)
+[2018.03.02-16.20.26:311][790]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.016551s)
+[2018.03.02-16.20.26:324][790]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.02-16.20.26:332][790]LogInit: FAudioDevice initialized.
+[2018.03.02-16.20.26:422][790]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.02-16.20.26:425][790]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2018.03.02-17.20.26
+[2018.03.02-16.20.26:425][790]LogWorld: Bringing up level for play took: 0.002301
+[2018.03.02-16.20.26:427][790]PIE: Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.113
+[2018.03.02-16.21.55:335][259]LogEditorActor: Deleted Actor: Landscape
+[2018.03.02-16.21.55:413][259]LogEditorActor: Deleted 1 Actors (0.079 secs)
+[2018.03.02-16.22.03:178][434]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.03.02-16.22.03:191][434]LogEditorActor: Deleted 1 Actors (0.014 secs)
+[2018.03.02-16.22.06:474][508]LogTexture: Display: Building textures: Texture2D_3 (G8, 128X128)
+[2018.03.02-16.22.19:167][775]Cmd: TRANSACTION UNDO
+[2018.03.02-16.22.19:167][775]LogEditorTransaction: Undo Change Landscape Resolution X
+[2018.03.02-16.22.47:243][260]LogTexture: Display: Building textures: Texture2D_1 (BGRA8, 512X512)
+[2018.03.02-16.22.47:255][260]LogTexture: Display: Building textures: Texture2D_2 (BGRA8, 512X512)
+[2018.03.02-16.22.47:266][260]LogTexture: Display: Building textures: Texture2D_3 (BGRA8, 512X512)
+[2018.03.02-16.22.47:277][260]LogTexture: Display: Building textures: Texture2D_4 (BGRA8, 512X512)
+[2018.03.02-16.22.47:289][260]LogTexture: Display: Building textures: Texture2D_5 (BGRA8, 512X512)
+[2018.03.02-16.22.47:299][260]LogTexture: Display: Building textures: Texture2D_6 (BGRA8, 512X512)
+[2018.03.02-16.22.47:311][260]LogTexture: Display: Building textures: Texture2D_7 (BGRA8, 512X512)
+[2018.03.02-16.22.47:321][260]LogTexture: Display: Building textures: Texture2D_8 (BGRA8, 512X512)
+[2018.03.02-16.22.47:332][260]LogTexture: Display: Building textures: Texture2D_9 (BGRA8, 512X512)
+[2018.03.02-16.22.47:343][260]LogTexture: Display: Building textures: Texture2D_10 (BGRA8, 512X512)
+[2018.03.02-16.22.47:354][260]LogTexture: Display: Building textures: Texture2D_11 (BGRA8, 512X512)
+[2018.03.02-16.22.47:365][260]LogTexture: Display: Building textures: Texture2D_12 (BGRA8, 512X512)
+[2018.03.02-16.22.47:375][260]LogTexture: Display: Building textures: Texture2D_13 (BGRA8, 512X512)
+[2018.03.02-16.22.47:386][260]LogTexture: Display: Building textures: Texture2D_14 (BGRA8, 512X512)
+[2018.03.02-16.22.47:397][260]LogTexture: Display: Building textures: Texture2D_15 (BGRA8, 512X512)
+[2018.03.02-16.22.47:408][260]LogTexture: Display: Building textures: Texture2D_16 (BGRA8, 512X512)
+[2018.03.02-16.22.47:419][260]LogMaterial: Missing cached shader map for material M_Ground_Grass, compiling. 
+[2018.03.02-16.23.04:440][469]Cmd: TRANSACTION UNDO
+[2018.03.02-16.23.04:440][469]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2018.03.02-16.23.09:251][525]Cmd: TRANSACTION UNDO
+[2018.03.02-16.23.09:251][525]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2018.03.02-16.23.16:738][620]Cmd: TRANSACTION UNDO
+[2018.03.02-16.23.16:738][620]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2018.03.02-16.23.20:540][664]Cmd: TRANSACTION UNDO
+[2018.03.02-16.23.20:540][664]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2018.03.02-16.23.20:654][664]LogTexture: Display: Building textures: Texture2D_7 (BGRA8, 512X512)
+[2018.03.02-16.23.22:245][681]Cmd: TRANSACTION UNDO
+[2018.03.02-16.23.22:245][681]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2018.03.02-16.23.30:083][779]Cmd: TRANSACTION UNDO
+[2018.03.02-16.23.30:083][779]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2018.03.02-16.24.31:447][388]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.03.02-16.24.50:857][650]LogTemp: Repeating last play command: Selected Viewport
+[2018.03.02-16.24.50:866][650]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.02-16.24.50:866][650]PIE: New page: PIE session: Untitled_1 (Mar 2, 2018, 6:24:50 PM)
+[2018.03.02-16.24.50:866][650]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2018.03.02-16.24.50:997][650]LogPlayLevel: PIE: StaticDuplicateObject took: (0.130431s)
+[2018.03.02-16.24.50:997][650]LogAIModule: Creating AISystem for world Untitled_1
+[2018.03.02-16.24.50:998][650]LogPlayLevel: PIE: World Init took: (0.000968s)
+[2018.03.02-16.24.50:998][650]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.131683s)
+[2018.03.02-16.24.51:009][650]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.03.02-16.24.51:014][650]LogInit: FAudioDevice initialized.
+[2018.03.02-16.24.51:045][650]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.03.02-16.24.51:070][650]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2018.03.02-17.24.51
+[2018.03.02-16.24.51:070][650]LogWorld: Bringing up level for play took: 0.024110
+[2018.03.02-16.24.51:072][650]PIE: Play in editor start time for /Temp/UEDPIE_0_Untitled_1 0.515
+[2018.03.02-16.25.46:395][150]LogActorFactory: Actor Factory created Cube
+[2018.03.02-16.25.47:966][171]LogActorFactory: Actor Factory created Cube
+[2018.03.02-16.27.20:508][269]LogMetaData: Removing '/Game/ExamContent/PlataformaInsegura.PlataformaInsegura:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/ExamContent/NewBlueprint.PackageMetaData'
+[2018.03.02-16.27.20:508][269]LogMetaData: Removing '/Game/ExamContent/PlataformaInsegura.SKEL_PlataformaInsegura_C' ref from Metadata '/Game/ExamContent/NewBlueprint.PackageMetaData'
+[2018.03.02-16.27.20:508][269]LogMetaData: Removing '/Game/ExamContent/PlataformaInsegura.PlataformaInsegura_C' ref from Metadata '/Game/ExamContent/NewBlueprint.PackageMetaData'
+[2018.03.02-16.27.20:508][269]LogMetaData: Removing '/Game/ExamContent/PlataformaInsegura.PlataformaInsegura:EventGraph.K2Node_Event_0' ref from Metadata '/Game/ExamContent/NewBlueprint.PackageMetaData'
+[2018.03.02-16.27.20:508][269]LogMetaData: Removing '/Game/ExamContent/PlataformaInsegura.PlataformaInsegura:EventGraph.K2Node_Event_1' ref from Metadata '/Game/ExamContent/NewBlueprint.PackageMetaData'
+[2018.03.02-16.27.20:508][269]LogMetaData: Removing '/Game/ExamContent/PlataformaInsegura.PlataformaInsegura:EventGraph.K2Node_Event_2' ref from Metadata '/Game/ExamContent/NewBlueprint.PackageMetaData'
+[2018.03.02-16.27.20:575][269]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ExamContent/PlataformaInsegura" FILE="D:/DidacAltesa/UnrealAmbElFran/CloneExamenFran/MyExam/Content/ExamContent/PlataformaInsegura.uasset" SILENT=true
+[2018.03.02-16.27.20:584][269]LogSavePackage: Save=8.52ms
+[2018.03.02-16.27.20:584][269]LogSavePackage: Moving 'D:/DidacAltesa/UnrealAmbElFran/CloneExamenFran/MyExam/Saved/PlataformaInsegura6BF9E4DF476844ECB29972BFF9F20047.tmp' to 'D:/DidacAltesa/UnrealAmbElFran/CloneExamenFran/MyExam/Content/ExamContent/PlataformaInsegura.uasset'
+[2018.03.02-16.27.20:585][269]LogSavePackage: Display: Finished SavePackage D:/DidacAltesa/UnrealAmbElFran/CloneExamenFran/MyExam/Content/ExamContent/PlataformaInsegura.uasset
+[2018.03.02-16.28.42:515][569]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 113 classes and 0 folders.
+[2018.03.02-16.28.43:214][569]LogSlate: Took 0.000094 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.03.02-16.28.45:204][586]LogRenderer: Reallocating scene render targets to support 1208x900 Format 10 NumSamples 1 (Frame:19).
+[2018.03.02-16.29.00:452][715]LogSlate: Took 0.003203 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.03.02-16.31.41:685][ 43]BlueprintLog: New page: Compile PlataformaInsegura
+[2018.03.02-16.31.57:626][201]LogContentBrowser: Native class hierarchy updated for 'MaterialEditor' in 0.0007 seconds. Added 1 classes and 0 folders.
+[2018.03.02-16.31.57:633][201]LogMaterial: Missing cached shader map for material Inseguro, compiling. 
+[2018.03.02-16.31.57:712][201]LogMaterial: Missing cached shader map for material Inseguro, compiling. 
+[2018.03.02-16.31.57:774][201]LogSlate: Took 0.002925 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.03.02-16.31.59:040][214]MaterialEditorStats: Base pass shader: 78 instructions
+[2018.03.02-16.31.59:040][214]MaterialEditorStats: Vertex shader: 29 instructions
+[2018.03.02-16.31.59:040][214]MaterialEditorStats: Texture samplers: 1/16
+[2018.03.02-16.33.02:646][679]Cmd: OBJ SAVEPACKAGE PACKAGE="/Temp/Untitled_1" FILE="D:/DidacAltesa/UnrealAmbElFran/CloneExamenFran/MyExam/Saved/Autosaves/Temp/Untitled_1_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2018.03.02-16.33.02:962][679]LogTexture: Display: Building textures: Texture2D_2 (BGRA8, 512X512)
+[2018.03.02-16.33.02:982][679]LogTexture: Display: Building textures: Texture2D_3 (BGRA8, 512X512)
+[2018.03.02-16.33.02:994][679]LogTexture: Display: Building textures: Texture2D_6 (BGRA8, 512X512)
+[2018.03.02-16.33.03:004][679]LogTexture: Display: Building textures: Texture2D_7 (BGRA8, 512X512)
+[2018.03.02-16.33.03:018][679]LogTexture: Display: Building textures: Texture2D_10 (BGRA8, 512X512)
+[2018.03.02-16.33.03:028][679]LogTexture: Display: Building textures: Texture2D_11 (BGRA8, 512X512)
+[2018.03.02-16.33.04:316][679]LogSavePackage: Save=1669.60ms
+[2018.03.02-16.33.04:317][679]LogSavePackage: Moving 'D:/DidacAltesa/UnrealAmbElFran/CloneExamenFran/MyExam/Saved/Untitled_1_Auto1F95F31F646C9262E5583A09FEEDF1A49.tmp' to 'D:/DidacAltesa/UnrealAmbElFran/CloneExamenFran/MyExam/Saved/Autosaves/Temp/Untitled_1_Auto1.umap'
+[2018.03.02-16.33.04:317][679]LogSavePackage: Display: Finished SavePackage D:/DidacAltesa/UnrealAmbElFran/CloneExamenFran/MyExam/Saved/Autosaves/Temp/Untitled_1_Auto1.umap
+[2018.03.02-16.33.04:319][679]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 1.690
+[2018.03.02-16.33.04:319][679]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.690
+[2018.03.02-16.33.04:339][679]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ExamContent/PlataformaInsegura] ([1] browsable assets)...
+[2018.03.02-16.33.04:404][679]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ExamContent/PlataformaInsegura.PlataformaInsegura]
+[2018.03.02-16.33.04:404][679]OBJ SavePackage: Finished generating thumbnails for package [/Game/ExamContent/PlataformaInsegura]
+[2018.03.02-16.33.04:419][679]LogSavePackage: Save=13.72ms
+[2018.03.02-16.33.04:420][679]LogSavePackage: Moving 'D:/DidacAltesa/UnrealAmbElFran/CloneExamenFran/MyExam/Saved/PlataformaInsegura_Auto1FA1AE1F44BFCF313B77BD6B046F9F83A.tmp' to 'D:/DidacAltesa/UnrealAmbElFran/CloneExamenFran/MyExam/Saved/Autosaves/Game/ExamContent/PlataformaInsegura_Auto1.uasset'
+[2018.03.02-16.33.04:420][679]LogSavePackage: Display: Finished SavePackage D:/DidacAltesa/UnrealAmbElFran/CloneExamenFran/MyExam/Saved/Autosaves/Game/ExamContent/PlataformaInsegura_Auto1.uasset
+[2018.03.02-16.33.04:420][679]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ExamContent/Inseguro] ([1] browsable assets)...
+[2018.03.02-16.33.04:470][679]OBJ SavePackage:     Rendered thumbnail for [Material /Game/ExamContent/Inseguro.Inseguro]
+[2018.03.02-16.33.04:470][679]OBJ SavePackage: Finished generating thumbnails for package [/Game/ExamContent/Inseguro]
+[2018.03.02-16.33.04:470][679]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ExamContent/Inseguro" FILE="D:/DidacAltesa/UnrealAmbElFran/CloneExamenFran/MyExam/Saved/Autosaves/Game/ExamContent/Inseguro_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2018.03.02-16.33.04:480][679]LogSavePackage: Save=9.45ms
+[2018.03.02-16.33.04:480][679]LogSavePackage: Moving 'D:/DidacAltesa/UnrealAmbElFran/CloneExamenFran/MyExam/Saved/Inseguro_Auto1C9EE391A43E18960E36BF68E5C638995.tmp' to 'D:/DidacAltesa/UnrealAmbElFran/CloneExamenFran/MyExam/Saved/Autosaves/Game/ExamContent/Inseguro_Auto1.uasset'
+[2018.03.02-16.33.04:480][679]LogSavePackage: Display: Finished SavePackage D:/DidacAltesa/UnrealAmbElFran/CloneExamenFran/MyExam/Saved/Autosaves/Game/ExamContent/Inseguro_Auto1.uasset
+[2018.03.02-16.33.04:480][679]LogFileHelpers: Auto-saving content packages took 0.142
+[2018.03.02-16.33.39:659][ 39]LogMaterial: Missing cached shader map for material Inseguro, compiling. 
+[2018.03.02-16.33.39:673][ 39]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2018.03.02-16.33.39:683][ 39]LogMaterial: Missing cached shader map for material Inseguro, compiling. 
+[2018.03.02-16.33.39:733][ 39]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2018.03.02-16.33.41:265][ 56]MaterialEditorStats: Base pass shader: 78 instructions
+[2018.03.02-16.33.41:266][ 56]MaterialEditorStats: Vertex shader: 29 instructions
+[2018.03.02-16.33.41:266][ 56]MaterialEditorStats: Texture samplers: 1/16
+[2018.03.02-16.33.44:333][ 86]LogMaterial: Missing cached shader map for material Inseguro, compiling. 
+[2018.03.02-16.33.45:438][ 98]MaterialEditorStats: Base pass shader: 78 instructions
+[2018.03.02-16.33.45:438][ 98]MaterialEditorStats: Vertex shader: 29 instructions
+[2018.03.02-16.33.45:438][ 98]MaterialEditorStats: Texture samplers: 1/16
+[2018.03.02-16.35.42:440][902]LogMetaData: Removing '/Game/ExamContent/PlataformaConvencional.PlataformaConvencional:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/ExamContent/NewBlueprint.PackageMetaData'
+[2018.03.02-16.35.42:440][902]LogMetaData: Removing '/Game/ExamContent/PlataformaConvencional.SKEL_PlataformaConvencional_C' ref from Metadata '/Game/ExamContent/NewBlueprint.PackageMetaData'
+[2018.03.02-16.35.42:440][902]LogMetaData: Removing '/Game/ExamContent/PlataformaConvencional.PlataformaConvencional_C' ref from Metadata '/Game/ExamContent/NewBlueprint.PackageMetaData'
+[2018.03.02-16.35.42:440][902]LogMetaData: Removing '/Game/ExamContent/PlataformaConvencional.PlataformaConvencional:EventGraph.K2Node_Event_0' ref from Metadata '/Game/ExamContent/NewBlueprint.PackageMetaData'
+[2018.03.02-16.35.42:440][902]LogMetaData: Removing '/Game/ExamContent/PlataformaConvencional.PlataformaConvencional:EventGraph.K2Node_Event_1' ref from Metadata '/Game/ExamContent/NewBlueprint.PackageMetaData'
+[2018.03.02-16.35.42:440][902]LogMetaData: Removing '/Game/ExamContent/PlataformaConvencional.PlataformaConvencional:EventGraph.K2Node_Event_2' ref from Metadata '/Game/ExamContent/NewBlueprint.PackageMetaData'
+[2018.03.02-16.35.42:511][902]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ExamContent/PlataformaConvencional" FILE="D:/DidacAltesa/UnrealAmbElFran/CloneExamenFran/MyExam/Content/ExamContent/PlataformaConvencional.uasset" SILENT=true
+[2018.03.02-16.35.42:518][902]LogSavePackage: Save=6.51ms
+[2018.03.02-16.35.42:518][902]LogSavePackage: Moving 'D:/DidacAltesa/UnrealAmbElFran/CloneExamenFran/MyExam/Saved/PlataformaConvencionalB9CF35104ADE8F134033B28078DD0682.tmp' to 'D:/DidacAltesa/UnrealAmbElFran/CloneExamenFran/MyExam/Content/ExamContent/PlataformaConvencional.uasset'
+[2018.03.02-16.35.42:518][902]LogSavePackage: Display: Finished SavePackage D:/DidacAltesa/UnrealAmbElFran/CloneExamenFran/MyExam/Content/ExamContent/PlataformaConvencional.uasset
+[2018.03.02-16.37.09:638][562]BlueprintLog: New page: Compile PlataformaConvencional
+[2018.03.02-16.37.57:284][115]LogSlate: Took 0.001495 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2018.03.02-16.38.32:087][527]BlueprintLog: New page: Compile PlataformaConvencional
+[2018.03.02-16.39.21:837][101]BlueprintLog: New page: Compile PlataformaConvencional
+[2018.03.02-16.40.41:031][ 18]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ExamContent/PlataformaConvencional" FILE="D:/DidacAltesa/UnrealAmbElFran/CloneExamenFran/MyExam/Content/ExamContent/PlataformaConvencional.uasset" SILENT=true
+[2018.03.02-16.40.41:067][ 18]LogSavePackage: Save=21.33ms
+[2018.03.02-16.40.41:067][ 18]LogSavePackage: Moving 'D:/DidacAltesa/UnrealAmbElFran/CloneExamenFran/MyExam/Saved/PlataformaConvencionalD6463C8240FD6FA11B5266A95276EB1C.tmp' to 'D:/DidacAltesa/UnrealAmbElFran/CloneExamenFran/MyExam/Content/ExamContent/PlataformaConvencional.uasset'
+[2018.03.02-16.40.41:067][ 18]LogSavePackage: Display: Finished SavePackage D:/DidacAltesa/UnrealAmbElFran/CloneExamenFran/MyExam/Content/ExamContent/PlataformaConvencional.uasset
+[2018.03.02-16.40.41:800][ 29]BlueprintLog: New page: Compile PlataformaConvencional
+[2018.03.02-16.40.42:863][ 38]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ExamContent/PlataformaConvencional" FILE="D:/DidacAltesa/UnrealAmbElFran/CloneExamenFran/MyExam/Content/ExamContent/PlataformaConvencional.uasset" SILENT=true
+[2018.03.02-16.40.42:883][ 38]LogSavePackage: Save=18.92ms
+[2018.03.02-16.40.42:883][ 38]LogSavePackage: Moving 'D:/DidacAltesa/UnrealAmbElFran/CloneExamenFran/MyExam/Saved/PlataformaConvencionalD080530C416CF367768C10848CB12D81.tmp' to 'D:/DidacAltesa/UnrealAmbElFran/CloneExamenFran/MyExam/Content/ExamContent/PlataformaConvencional.uasset'
+[2018.03.02-16.40.42:884][ 38]LogSavePackage: Display: Finished SavePackage D:/DidacAltesa/UnrealAmbElFran/CloneExamenFran/MyExam/Content/ExamContent/PlataformaConvencional.uasset
+[2018.03.02-16.40.57:121][222]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ExamContent/PlataformaConvencional" FILE="D:/DidacAltesa/UnrealAmbElFran/CloneExamenFran/MyExam/Content/ExamContent/PlataformaConvencional.uasset" SILENT=true
+[2018.03.02-16.40.57:134][222]LogSavePackage: Save=12.33ms
+[2018.03.02-16.40.57:134][222]LogSavePackage: Moving 'D:/DidacAltesa/UnrealAmbElFran/CloneExamenFran/MyExam/Saved/PlataformaConvencionalC35345C44552D6D5AF9A37B467106B10.tmp' to 'D:/DidacAltesa/UnrealAmbElFran/CloneExamenFran/MyExam/Content/ExamContent/PlataformaConvencional.uasset'
+[2018.03.02-16.40.57:135][222]LogSavePackage: Display: Finished SavePackage D:/DidacAltesa/UnrealAmbElFran/CloneExamenFran/MyExam/Content/ExamContent/PlataformaConvencional.uasset
+[2018.03.02-16.43.53:345][439]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.019
+[2018.03.02-16.43.53:347][439]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ExamContent/PlataformaInsegura] ([1] browsable assets)...
+[2018.03.02-16.43.53:382][439]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ExamContent/PlataformaInsegura.PlataformaInsegura]
+[2018.03.02-16.43.53:382][439]OBJ SavePackage: Finished generating thumbnails for package [/Game/ExamContent/PlataformaInsegura]
+[2018.03.02-16.43.53:399][439]LogSavePackage: Save=15.48ms
+[2018.03.02-16.43.53:399][439]LogSavePackage: Moving 'D:/DidacAltesa/UnrealAmbElFran/CloneExamenFran/MyExam/Saved/PlataformaInsegura_Auto25F933F7D45B590D0813F9B81367FF227.tmp' to 'D:/DidacAltesa/UnrealAmbElFran/CloneExamenFran/MyExam/Saved/Autosaves/Game/ExamContent/PlataformaInsegura_Auto2.uasset'
+[2018.03.02-16.43.53:399][439]LogSavePackage: Display: Finished SavePackage D:/DidacAltesa/UnrealAmbElFran/CloneExamenFran/MyExam/Saved/Autosaves/Game/ExamContent/PlataformaInsegura_Auto2.uasset
+[2018.03.02-16.43.53:400][439]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ExamContent/PlataformaConvencional] ([1] browsable assets)...
+[2018.03.02-16.43.53:435][439]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ExamContent/PlataformaConvencional.PlataformaConvencional]
+[2018.03.02-16.43.53:435][439]OBJ SavePackage: Finished generating thumbnails for package [/Game/ExamContent/PlataformaConvencional]
+[2018.03.02-16.43.53:456][439]LogSavePackage: Save=20.77ms
+[2018.03.02-16.43.53:456][439]LogSavePackage: Moving 'D:/DidacAltesa/UnrealAmbElFran/CloneExamenFran/MyExam/Saved/PlataformaConvencional_Auto292DF42464CED58356BDAA898848E231B.tmp' to 'D:/DidacAltesa/UnrealAmbElFran/CloneExamenFran/MyExam/Saved/Autosaves/Game/ExamContent/PlataformaConvencional_Auto2.uasset'
+[2018.03.02-16.43.53:456][439]LogSavePackage: Display: Finished SavePackage D:/DidacAltesa/UnrealAmbElFran/CloneExamenFran/MyExam/Saved/Autosaves/Game/ExamContent/PlataformaConvencional_Auto2.uasset
+[2018.03.02-16.43.53:456][439]LogFileHelpers: Auto-saving content packages took 0.110
+[2018.03.02-16.46.02:621][552]LogMaterial: Missing cached shader map for material Inseguro, compiling. 
+[2018.03.02-16.46.02:638][552]LogMaterial: Missing cached shader map for material Inseguro, compiling. 
+[2018.03.02-16.46.02:738][553]LogMaterial: Missing cached shader map for material Material_0, compiling. 
+[2018.03.02-16.46.03:961][562]MaterialEditorStats: Base pass shader: 78 instructions
+[2018.03.02-16.46.03:961][562]MaterialEditorStats: Vertex shader: 29 instructions
+[2018.03.02-16.46.03:961][562]MaterialEditorStats: Texture samplers: 1/16
+[2018.03.02-16.46.07:914][601]LogMaterial: Missing cached shader map for material Inseguro, compiling. 
+[2018.03.02-16.46.08:938][612]MaterialEditorStats: Base pass shader: 78 instructions
+[2018.03.02-16.46.08:938][612]MaterialEditorStats: Vertex shader: 29 instructions
+[2018.03.02-16.46.08:938][612]MaterialEditorStats: Texture samplers: 1/16
+[2018.03.02-16.46.17:034][691]LogMaterial: Missing cached shader map for material Inseguro, compiling. 
+[2018.03.02-16.46.17:047][691]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2018.03.02-16.46.17:053][691]LogMaterial: Missing cached shader map for material Inseguro, compiling. 
+[2018.03.02-16.46.17:113][691]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2018.03.02-16.46.18:385][704]MaterialEditorStats: Base pass shader: 78 instructions
+[2018.03.02-16.46.18:385][704]MaterialEditorStats: Vertex shader: 29 instructions
+[2018.03.02-16.46.18:385][704]MaterialEditorStats: Texture samplers: 1/16
+[2018.03.02-16.46.23:541][755]LogMaterial: Missing cached shader map for material Inseguro, compiling. 
+[2018.03.02-16.46.23:561][755]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2018.03.02-16.46.24:806][767]LogMaterial: Missing cached shader map for material Inseguro, compiling. 
+[2018.03.02-16.46.24:825][767]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2018.03.02-16.46.25:708][775]LogMaterial: Missing cached shader map for material Inseguro, compiling. 
+[2018.03.02-16.46.25:733][775]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2018.03.02-16.46.26:876][788]MaterialEditorStats: Base pass shader: 79 instructions
+[2018.03.02-16.46.26:876][788]MaterialEditorStats: Vertex shader: 29 instructions
+[2018.03.02-16.46.26:876][788]MaterialEditorStats: Texture samplers: 1/16
+[2018.03.02-16.46.53:928][ 58]LogMaterialEditor: Saving and Compiling material Inseguro
+[2018.03.02-16.46.54:443][ 58]LogMaterial: Missing cached shader map for material Inseguro, compiling. 
+[2018.03.02-16.46.54:490][ 58]LogMaterial: Missing cached shader map for material Inseguro, compiling. 
+[2018.03.02-16.46.54:528][ 58]LogMaterial: Missing cached shader map for material Inseguro, compiling. 
+[2018.03.02-16.46.54:603][ 58]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Inseguro, compiling. 
+[2018.03.02-16.46.55:304][ 58]TextureStreamingBuild: Display: Compiling optional shaders took 0.710 seconds.
+[2018.03.02-16.46.56:842][ 58]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ExamContent/Inseguro" FILE="D:/DidacAltesa/UnrealAmbElFran/CloneExamenFran/MyExam/Content/ExamContent/Inseguro.uasset" SILENT=true
+[2018.03.02-16.46.56:885][ 58]LogSavePackage: Save=11.28ms
+[2018.03.02-16.46.56:885][ 58]LogSavePackage: Moving 'D:/DidacAltesa/UnrealAmbElFran/CloneExamenFran/MyExam/Saved/Inseguro35A083BC4AAEEF7570DB40929F6E40FE.tmp' to 'D:/DidacAltesa/UnrealAmbElFran/CloneExamenFran/MyExam/Content/ExamContent/Inseguro.uasset'
+[2018.03.02-16.46.56:885][ 58]LogSavePackage: Display: Finished SavePackage D:/DidacAltesa/UnrealAmbElFran/CloneExamenFran/MyExam/Content/ExamContent/Inseguro.uasset
+[2018.03.02-16.46.56:897][ 58]MaterialEditorStats: Base pass shader: 79 instructions
+[2018.03.02-16.46.56:897][ 58]MaterialEditorStats: Vertex shader: 29 instructions
+[2018.03.02-16.46.56:897][ 58]MaterialEditorStats: Texture samplers: 2/16
+[2018.03.02-16.47.26:307][299]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.03.02-16.47.26:331][299]LogEditorActor: Deleted 1 Actors (0.026 secs)
+[2018.03.02-16.48.33:569][ 79]BlueprintLog: New page: Compile PlataformaConvencional
+[2018.03.02-16.48.43:470][193]BlueprintLog: New page: Compile PlataformaConvencional
+[2018.03.02-16.48.51:870][275]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.118 s
+[2018.03.02-16.48.51:870][275]LogOutputDevice: Error: === Handled ensure: ===
+[2018.03.02-16.48.51:870][275]LogOutputDevice: Error: 
+[2018.03.02-16.48.51:870][275]LogOutputDevice: Error: Ensure condition failed: TargetPin [File:D:\Build\++UE4+Release-4.17+Compile\Sync\Engine\Source\Editor\MaterialEditor\Private\MaterialEditor.cpp] [Line: 2574]
+[2018.03.02-16.48.51:870][275]LogOutputDevice: Error: 
+[2018.03.02-16.48.51:870][275]LogOutputDevice: Error: Stack: 
+[2018.03.02-16.48.51:870][275]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000C7BE3606
+[2018.03.02-16.48.51:870][275]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000C796C2D2
+[2018.03.02-16.48.51:870][275]LogOutputDevice: Error: UE4Editor-Core.dll!0x00000000C7984746
+[2018.03.02-16.48.51:870][275]LogOutputDevice: Error: UE4Editor-MaterialEditor.dll!0x00000000B9C14871
+[2018.03.02-16.48.51:870][275]LogOutputDevice: Error: UE4Editor-MaterialEditor.dll!0x00000000B9BE7BE6
+[2018.03.02-16.48.51:870][275]LogOutputDevice: Error: UE4Editor-Slate.dll!0x00000000C32D4F1B
+[2018.03.02-16.48.51:870][275]LogOutputDevice: Error: UE4Editor-Slate.dll!0x00000000C33DD3B8
+[2018.03.02-16.48.51:870][275]LogOutputDevice: Error: UE4Editor-Slate.dll!0x00000000C33C53D6
+[2018.03.02-16.48.51:870][275]LogOutputDevice: Error: UE4Editor-SlateCore.dll!0x00000000C2FCF524
+[2018.03.02-16.48.51:870][275]LogOutputDevice: Error: UE4Editor-SlateCore.dll!0x00000000C3008628
+[2018.03.02-16.48.51:870][275]LogOutputDevice: Error: UE4Editor-SlateCore.dll!0x00000000C3009F2A
+[2018.03.02-16.48.51:870][275]LogOutputDevice: Error: UE4Editor-SlateCore.dll!0x00000000C3008BA9
+[2018.03.02-16.48.51:870][275]LogOutputDevice: Error: UE4Editor-SlateCore.dll!0x00000000C3009F2A
+[2018.03.02-16.48.51:870][275]LogOutputDevice: Error: UE4Editor-SlateCore.dll!0x00000000C300A836
+[2018.03.02-16.48.51:870][275]LogOutputDevice: Error: UE4Editor-SlateCore.dll!0x00000000C3008CDD
+[2018.03.02-16.48.51:870][275]LogOutputDevice: Error: UE4Editor-SlateCore.dll!0x00000000C3009F2A
+[2018.03.02-16.48.51:870][275]LogOutputDevice: Error: UE4Editor-SlateCore.dll!0x00000000C300A836
+[2018.03.02-16.48.51:870][275]LogOutputDevice: Error: UE4Editor-SlateCore.dll!0x00000000C3008CDD
+[2018.03.02-16.48.51:870][275]LogOutputDevice: Error: UE4Editor-SlateCore.dll!0x00000000C3009F2A
+[2018.03.02-16.48.51:870][275]LogOutputDevice: Error: UE4Editor-SlateCore.dll!0x00000000C300A836
+[2018.03.02-16.48.51:870][275]LogOutputDevice: Error: UE4Editor-SlateCore.dll!0x00000000C3008CDD
+[2018.03.02-16.48.51:870][275]LogOutputDevice: Error: UE4Editor-SlateCore.dll!0x00000000C3009F2A
+[2018.03.02-16.48.51:870][275]LogOutputDevice: Error: UE4Editor-SlateCore.dll!0x00000000C3008BA9
+[2018.03.02-16.48.51:870][275]LogOutputDevice: Error: UE4Editor-SlateCore.dll!0x00000000C3009F2A
+[2018.03.02-16.48.51:870][275]LogOutputDevice: Error: UE4Editor-SlateCore.dll!0x00000000C300A836
+[2018.03.02-16.48.51:870][275]LogOutputDevice: Error: UE4Editor-SlateCore.dll!0x00000000C3008CDD
+[2018.03.02-16.48.51:870][275]LogOutputDevice: Error: UE4Editor-SlateCore.dll!0x00000000C3009F2A
+[2018.03.02-16.48.51:870][275]LogOutputDevice: Error: UE4Editor-SlateCore.dll!0x00000000C3008667
+[2018.03.02-16.48.51:871][275]LogOutputDevice: Error: UE4Editor-Slate.dll!0x00000000C35336BD
+[2018.03.02-16.48.51:871][275]LogOutputDevice: Error: UE4Editor-SlateCore.dll!0x00000000C3009F2A
+[2018.03.02-16.48.51:871][275]LogOutputDevice: Error: UE4Editor-SlateCore.dll!0x00000000C3008667
+[2018.03.02-16.48.51:871][275]LogOutputDevice: Error: UE4Editor-Slate.dll!0x00000000C352F63D
+[2018.03.02-16.48.51:871][275]LogOutputDevice: Error: UE4Editor-SlateCore.dll!0x00000000C3009F2A
+[2018.03.02-16.48.51:871][275]LogOutputDevice: Error: UE4Editor-SlateCore.dll!0x00000000C3008667
+[2018.03.02-16.48.51:871][275]LogOutputDevice: Error: UE4Editor-SlateCore.dll!0x00000000C3009F2A
+[2018.03.02-16.48.51:871][275]LogOutputDevice: Error: UE4Editor-SlateCore.dll!0x00000000C2FC783B
+[2018.03.02-16.48.51:871][275]LogOutputDevice: Error: UE4Editor-SlateCore.dll!0x00000000C300AACA
+[2018.03.02-16.48.51:871][275]LogOutputDevice: Error: UE4Editor-SlateCore.dll!0x00000000C300A63E
+[2018.03.02-16.48.51:871][275]LogOutputDevice: Error: UE4Editor-Slate.dll!0x00000000C32E0A8A
+[2018.03.02-16.48.51:871][275]LogOutputDevice: Error: UE4Editor-Slate.dll!0x00000000C32E1AA8
+[2018.03.02-16.48.51:871][275]LogOutputDevice: Error: UE4Editor-Slate.dll!0x00000000C32E1AA8
+[2018.03.02-16.48.51:871][275]LogOutputDevice: Error: UE4Editor-Slate.dll!0x00000000C3315C10
+[2018.03.02-16.48.51:871][275]LogOutputDevice: Error: UE4Editor-Slate.dll!0x00000000C32E1B50
+[2018.03.02-16.48.51:871][275]LogOutputDevice: Error: UE4Editor-Slate.dll!0x00000000C333C297
+[2018.03.02-16.48.51:871][275]LogOutputDevice: Error: UE4Editor-Slate.dll!0x00000000C333B335
+[2018.03.02-16.48.51:871][275]LogOutputDevice: Error: UE4Editor.exe!0x000000003F4A5DFD
+[2018.03.02-16.48.51:871][275]LogOutputDevice: Error: UE4Editor.exe!0x000000003F4B3970
+[2018.03.02-16.48.51:871][275]LogOutputDevice: Error: UE4Editor.exe!0x000000003F4B39EA
+[2018.03.02-16.48.51:871][275]LogOutputDevice: Error: UE4Editor.exe!0x000000003F4C02D9
+[2018.03.02-16.48.51:871][275]LogOutputDevice: Error: UE4Editor.exe!0x000000003F4C1C47
+[2018.03.02-16.48.51:871][275]LogOutputDevice: Error: kernel32.dll!0x0000000076FF59CD
+[2018.03.02-16.48.51:871][275]LogOutputDevice: Error: ntdll.dll!0x000000007712A561
+[2018.03.02-16.48.51:871][275]LogOutputDevice: Error: 
+[2018.03.02-16.48.51:872][275]LogStats:                SubmitErrorReport -  0.000 s
